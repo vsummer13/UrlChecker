@@ -14,7 +14,7 @@ If the folder urlstring is in Documents, then type:
 cd Documents
 
 Step 3: Compile the Checker:
-javacheck -cp "CLASSPATHTOCHECKERFRAMEWORK\checker-framework-2.5.7\checker\dist\checker.jar;.\urlstring" urlstring\UrlChecker.java
+javacheck -cp "CLASSPATHTOCHECKERFRAMEWORK\checker-framework-2.5.7\checker\dist\checker.jar;.\urlstring" urlstring\UrlAnnotatedTypeFactory.java urlstring\UrlChecker.java
 
 Runing the Checker on Code:
 javacheck -cp "CLASSPATHTOURLSTRING\urlstring" -processor UrlChecker myFile.java
